@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(255, 196, 224);
+}
+h1 {
+    background-color: rgb(127, 255, 178);
+    color:rgb(65, 61, 56);
+    font-size: 200px;
+    font-family: fantasy;
+    font-style: italic;
+}
+
+p {
+    background-color: hsl(254, 83%, 47%);
+    color:aquamarine;
+    font-weight: lighter;
+    font-size: 100px;
+    font-family: fantasy;
+
+}
+p, h1 {
+    text-align: center;
+}
