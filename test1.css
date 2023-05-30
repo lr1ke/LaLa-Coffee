@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 196, 224);
+
 }
 h1 {
     background-color: rgb(127, 255, 178);
@@ -11,7 +12,7 @@ h1 {
 
 p {
     background-color: hsl(254, 83%, 47%);
-    color:aquamarine;
+    color:rgb(127, 255, 178);
     font-weight: lighter;
     font-size: 100px;
     font-family: fantasy;
@@ -19,4 +20,5 @@ p {
 }
 p, h1 {
     text-align: center;
-}
+} 
+rgb(127, 255, 178)
