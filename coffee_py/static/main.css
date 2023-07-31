@@ -1,0 +1,40 @@
+body {
+    font-family: fantasy;
+    color: rgb(11, 11, 13);  
+ }
+ 
+ .carousel-caption {
+    color: rgb(255, 255, 255);
+ }
+ 
+ .invalid { border-color: purple;
+ }
+ #error {   color: purple;
+ }
+ 
+ #error2 {   color: purple;
+ }
+ 
+ #error3 {   color: purple;
+ }
+  
+ email name {
+    color: aqua;
+ }
+ 
+ form {
+    color: aqua;
+ }
+ 
+ /* #lastly {
+    color: purple;
+ } */
+
+ #menu {
+   background-color: bisque;
+ }
+
+ .ingredients {
+   color: purple;
+ }
+ 

@@ -1,0 +1,173 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container my-5">
+
+    <div class="container aos-init aos-animate" data-aos="fade-up"  id="menu" class="menu">
+
+     
+
+      <ul class="nav nav-tabs">
+
+        <li class="nav-item">
+          <a class="nav-link show active" data-bs-toggle="tab" data-bs-target="#menu-coffee" aria-selected="true" role="tab">
+            <h4>Coffee</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-sweets" aria-selected="false" role="tab" tabindex="-1">
+            <h4>Sweets</h4>
+          </a><!-- End tab nav item -->
+        </li><!-- End tab nav item -->
+
+      </ul>
+
+      <div class="tab-content aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+
+        <div class="tab-pane fade active show" id="menu-coffee" role="tabpanel" id="menu">
+
+          <br>
+          <br>
+          <div class="row gy-5">
+
+            <div class="col-lg-4 menu-item">
+              <h4>Espresso</h4>
+              <p class="ingredients">
+                Concentrated Coffe in a small cup
+            </p>
+              <p class="price">
+                $1.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <h4>Americano</h4>
+              <p class="ingredients">
+                Espresso with hot water
+            </p>
+              <p class="price">
+                $2.80
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <h4>Brewed Coffee</h4>
+              <p class="ingredients">
+                Your choice of brewed coffee 
+            </p>
+              <p class="price">
+                $3.00
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <h4>Cold Brew</h4>
+              <p class="ingredients">
+                The brew is perfect for any day! Try it with some ice cubes
+            </p>
+              <p class="price">
+                $3.80
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <h4>Cappuccino</h4>
+              <p class="ingredients">
+                One part espresso, one part milk, and one part foam
+            </p>
+              <p class="price">
+                $3.50
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <h4>Latte</h4>
+              <p class="ingredients">
+                Espresso and steamed milk with a touch of foam
+            </p>
+              <p class="price">
+                $4.00
+              </p>
+            </div><!-- Menu Item -->
+
+          </div>
+        </div><!-- End Coffee Menu Content -->
+
+        <div class="tab-pane fade" id="menu-sweets" role="tabpanel">
+
+         <br>
+         <br>
+
+          <div class="row gy-5">
+
+            <div class="col-lg-4 menu-item">
+              <h4>Apple Pie</h4>
+              <p class="ingredients">
+              Flaky homemade pie crust and cinnamom coated apples come together to create our vegan apple pie!</p>
+              <p class="price">
+                $3.00
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <h4>Brownie</h4>
+              <p class="ingredients">
+                A warm, ultra chocolatey brownie that's fudgy on the inside and chewy on the outside, then topped with vanilla ice-cream...
+              </p>
+              <p class="price">
+                $3.80
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <h4>Banana Bread</h4>
+              <p class="ingredients">
+                Scrumptious Banana and Chocolatey Yumminess! Enjoy our vegan Banana Bread on any occasion...
+              </p>
+              <p class="price">
+                $2.00
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <h4>Almond Cookie</h4>
+              <p class="ingredients">
+                It has a buttery texture, flavoured with almond extract and an almond gently pressed into the center.
+              </p>
+              <p class="price">
+                $1.80
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <h4>Lemon Cake</h4>
+              <p class="ingredients">
+                Our lemon cake is extra lemony and makes a lovely afternoon coffee treat.
+              </p>
+              <p class="price">
+                $2.50
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <h4>Nut Bar</h4>
+              <p class="ingredients">
+              These crisp and chewy bars unite roasted peanuts and almonds with a delicious trio of berries.
+              </p>
+              <p class="price">
+                $1.80
+              </p>
+            </div><!-- Menu Item -->
+
+          </div>
+        </div><!-- End Sweets Menu Content -->
+
+       
+        </div><!-- End Dinner Menu Content -->
+
+      </div>
+
+    </div>
+    
+</div>
+{% endblock content%}

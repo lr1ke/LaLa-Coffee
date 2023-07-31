@@ -1,0 +1,42 @@
+
+{% extends "layout.html" %}
+{% block content %}
+<div class="container">
+    <div class=" card mb-5 mt-5 text-center bg-light" id="Concept">
+        <div class="card-body bg-light">
+          <div class="text-center mb-5 mt-5">
+            <h1>Our Concept</h1>
+          </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="{{ url_for('static', filename='conc1.avif')}}" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <p class="card-text">We believe in creating value through open dialog and honest
+            treade among people who share the same passion for high-quality coffee.
+          </p>
+        </div>
+      </div>
+  
+      <div class="card">
+        <img src="{{ url_for('static', filename='conc2.avif')}}" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <p class="card-text">Our preferred, straightforward and also unique method of developing cool coffee at
+            our cafe. 
+          </p>
+  
+  
+        </div>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='conc3.avif')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center">Most of all, we are committed to giving you the best customer
+            service as well as a comfortable environment to sit with good friends,
+            research study and work.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  {% endblock content%}

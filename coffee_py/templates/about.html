@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container">
+    <div class="mb-5 mt-5 text-center" id="AboutUs">
+
+      <div class="card mt-5">
+        <div class="card-body bg-light">
+      <div class="text-center mb-5 mt-5">
+  
+      <h1>About Us</h1>
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="{{ url_for('static', filename='about1.avif')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Amanda
+          </h5>
+          <p class="card-text">The coolest coffee maker you've ever found. She knows how to wow her clients with a cup
+            of fresh coffee.
+          </p>
+          <p class="card-text"><small class="text-body-secondary">Barista</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='about2.avif')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Louis
+          </h5>
+          <p class="card-text text-center">He creates the best mood in the eCommerce Website Template Cafe and makes you happy.
+          </p>
+          <p class="card-text"><small class="text-body-secondary">Musician</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="{{ url_for('static', filename='about3.avif')}}" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Mike</h5>
+          <p class="card-text">He knows exactly what you want and will offer the coffee for your taste. Promise!
+          </p>
+          <p class="card-text"><small class="text-body-secondary">Purchasing officer
+            </small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>{% endblock content%}
