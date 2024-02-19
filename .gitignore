@@ -201,3 +201,5 @@ cython_debug/
 *.vsix
 
 keys.json
+
+.DS_Store
